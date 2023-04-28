@@ -55,6 +55,16 @@ xcassets:
         publicAccess: true
 
 
+files:
+  inputs: Assets/Videos
+  filter: .+\.mp4$
+  outputs:
+    templatePath: files_template.stencil
+    output: Assets+files.swift
+    params:
+      publicAccess: true
+
+
 ## There are other parsers available for you to use depending on your needs, for example:
 ##  - `fonts` (if you have custom ttf/ttc font files)
 ##  - `coredata` (for CoreData models)
