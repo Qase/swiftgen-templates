@@ -37,7 +37,7 @@ public extension LocalizedStringKey {
     }
 }
 
-private extension String {
+public extension String {
     var nsLocalizedString: String {
         NSLocalizedString(self, bundle: .module, comment: "")
     }

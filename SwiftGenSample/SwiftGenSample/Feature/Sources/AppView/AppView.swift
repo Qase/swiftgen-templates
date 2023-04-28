@@ -14,11 +14,11 @@ public struct AppView: View {
                 .foregroundColor(.M.mintGreen)
 
             VStack(spacing: 5) {
-                Text(.hello("world"))
+                Text(.hello("world".nsLocalizedString))
 
                 Text(.high(5))
                 
-                Text(.no("world", 5))
+                Text(.no("world".nsLocalizedString, 5))
             }
             .font(.title)
 
