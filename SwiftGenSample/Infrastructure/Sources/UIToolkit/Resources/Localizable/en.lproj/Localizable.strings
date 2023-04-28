@@ -3,6 +3,7 @@
 "hello %@" = "Hello, %@!✌️";
 "high %lld" = "High %lld🖐️";
 "no %@ %lld" = "%@ No. %lld";
+"play_video" = "Play video";
 "show_sheet" = "Show sheet";
 "dismiss_sheet" = "Dismiss sheet";
 

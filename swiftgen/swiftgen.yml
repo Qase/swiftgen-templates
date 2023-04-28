@@ -60,7 +60,7 @@ files:
   filter: .+\.mp4$
   outputs:
     templatePath: files_template.stencil
-    output: Assets+files.swift
+    output: Files.swift
     params:
       publicAccess: true
 

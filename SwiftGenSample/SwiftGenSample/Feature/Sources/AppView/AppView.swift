@@ -2,7 +2,17 @@ import SwiftUI
 import UIToolkit
 
 public struct AppView: View {
-    @State private var showingSheet = false
+
+    enum Sheet: Identifiable {
+        case text
+        case video
+
+        var id: Int {
+            hashValue
+        }
+    }
+
+    @State private var sheet: Sheet?
 
     public init() {}
 
@@ -17,17 +27,27 @@ public struct AppView: View {
                 Text(.hello("world".nsLocalizedString))
 
                 Text(.high(5))
-                
+
                 Text(.no("world".nsLocalizedString, 5))
             }
             .font(.title)
 
+            Button(.playVideo) {
+                sheet = .video
+            }
+
             Button(.showSheet) {
-                showingSheet.toggle()
+                sheet = .text
             }
         }
-        .sheet(isPresented: $showingSheet) {
-            SheetView()
+        .sheet(item: $sheet) { item in
+            switch item {
+            case .text:
+                SheetView()
+
+            case .video:
+                VideoView(videoURL: Files.rickMp4)
+            }
         }
     }
 }

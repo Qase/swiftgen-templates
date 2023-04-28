@@ -21,6 +21,8 @@ public extension LocalizedStringKey {
     static func no(_ p1: String, _ p2: Int) -> LocalizedStringKey {
         "no %@ %lld".localizedStringKey(with: [p1, p2])
     }     
+    /// Play video
+    static let playVideo: LocalizedStringKey = "play_video".localizedStringKey
     /// Show sheet
     static let showSheet: LocalizedStringKey = "show_sheet".localizedStringKey
     /// World
