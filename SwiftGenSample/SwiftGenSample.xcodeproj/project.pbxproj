@@ -14,6 +14,7 @@
 
 /* Begin PBXFileReference section */
 		1624335E29FC090300106B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1624336229FC211A00106B4D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16AE0D8529B27559009B5672 /* Infrastructure */ = {isa = PBXFileReference; lastKnownFileType = text; path = Infrastructure; sourceTree = SOURCE_ROOT; };
 		16EC301329B609B1007C8106 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		16EC301629B610BC007C8106 /* Feature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Feature; sourceTree = "<group>"; };
@@ -61,8 +62,9 @@
 		16EC6CF229B2345900EFF76A /* SwiftGenSample */ = {
 			isa = PBXGroup;
 			children = (
-				1624335E29FC090300106B4D /* Info.plist */,
 				16EC6CF929B2345A00EFF76A /* SwiftGenSample.entitlements */,
+				1624336229FC211A00106B4D /* README.md */,
+				1624335E29FC090300106B4D /* Info.plist */,
 				16EC6CF329B2345900EFF76A /* SwiftGenSample.swift */,
 				16EC301329B609B1007C8106 /* Media.xcassets */,
 				16EC301629B610BC007C8106 /* Feature */,
