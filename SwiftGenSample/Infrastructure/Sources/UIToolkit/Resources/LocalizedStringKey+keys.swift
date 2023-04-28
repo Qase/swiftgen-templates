@@ -7,8 +7,8 @@ import SwiftUI
 // MARK: - LocalizedStringKey+
 
 public extension LocalizedStringKey {
-    /// Press to dismiss
-    static let dismiss: LocalizedStringKey = "dismiss".localizedStringKey
+    /// Dismiss sheet
+    static let dismissSheet: LocalizedStringKey = "dismiss_sheet".localizedStringKey
     /// Hello, %@!✌️
     static func hello(_ p1: String) -> LocalizedStringKey {
         "hello %@".localizedStringKey(with: [p1])
@@ -21,6 +21,8 @@ public extension LocalizedStringKey {
     static func no(_ p1: String, _ p2: Int) -> LocalizedStringKey {
         "no %@ %lld".localizedStringKey(with: [p1, p2])
     }     
+    /// Show sheet
+    static let showSheet: LocalizedStringKey = "show_sheet".localizedStringKey
     /// World
     static let world: LocalizedStringKey = "world".localizedStringKey
     enum Welcome {

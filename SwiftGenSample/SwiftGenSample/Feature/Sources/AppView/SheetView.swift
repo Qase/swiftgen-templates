@@ -32,7 +32,7 @@ public struct SheetView: View {
                     .multilineTextAlignment(.center)
             }
 
-            Button("Dismiss sheet") {
+            Button(.dismissSheet) {
                 dismiss()
             }
         }

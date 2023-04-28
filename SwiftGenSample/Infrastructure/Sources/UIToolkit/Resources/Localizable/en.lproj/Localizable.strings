@@ -3,6 +3,8 @@
 "hello %@" = "Hello, %@!✌️";
 "high %lld" = "High %lld🖐️";
 "no %@ %lld" = "%@ No. %lld";
+"show_sheet" = "Show sheet";
+"dismiss_sheet" = "Dismiss sheet";
 
 // Welcome
 "welcome.title" = "Title";

@@ -18,11 +18,11 @@ public struct AppView: View {
 
                 Text(.high(5))
                 
-                Text(.no("World", 5))
+                Text(.no("world", 5))
             }
             .font(.title)
 
-            Button("Show Sheet") {
+            Button(.showSheet) {
                 showingSheet.toggle()
             }
         }

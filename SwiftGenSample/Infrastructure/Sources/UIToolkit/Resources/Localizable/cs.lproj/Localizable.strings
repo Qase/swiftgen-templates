@@ -3,6 +3,8 @@
 "hello %@" = "Ahoj, %@!✌️";
 "high %lld" = "Vysokých %lld🖐️";
 "no %@ %lld" = "%@ č. %lld";
+"show_sheet" = "Ukázat list";
+"dismiss_sheet" = "Schovat list";
 
 // Welcome
 "welcome.title" = "Nadpis";
