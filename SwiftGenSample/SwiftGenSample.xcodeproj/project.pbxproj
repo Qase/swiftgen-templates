@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1624335E29FC090300106B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		16AE0D8529B27559009B5672 /* Infrastructure */ = {isa = PBXFileReference; lastKnownFileType = text; path = Infrastructure; sourceTree = SOURCE_ROOT; };
 		16EC301329B609B1007C8106 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		16EC301629B610BC007C8106 /* Feature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Feature; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		16EC6CF229B2345900EFF76A /* SwiftGenSample */ = {
 			isa = PBXGroup;
 			children = (
+				1624335E29FC090300106B4D /* Info.plist */,
 				16EC6CF929B2345A00EFF76A /* SwiftGenSample.entitlements */,
 				16EC6CF329B2345900EFF76A /* SwiftGenSample.swift */,
 				16EC301329B609B1007C8106 /* Media.xcassets */,
@@ -114,7 +116,6 @@
 			knownRegions = (
 				en,
 				cs,
-				Base,
 			);
 			mainGroup = 16EC6CE729B2345900EFF76A;
 			productRefGroup = 16EC6CF129B2345900EFF76A /* Products */;
@@ -276,6 +277,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftGenSample/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,6 +319,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftGenSample/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
