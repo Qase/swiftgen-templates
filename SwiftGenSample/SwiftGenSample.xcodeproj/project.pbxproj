@@ -40,18 +40,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		16EC301229B60995007C8106 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				16EC301329B609B1007C8106 /* Media.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		16EC6CE729B2345900EFF76A = {
 			isa = PBXGroup;
 			children = (
-				16EC301229B60995007C8106 /* Resources */,
 				16EC6CF229B2345900EFF76A /* SwiftGenSample */,
 				16EC300F29B5F7EA007C8106 /* Frameworks */,
 				16EC6CF129B2345900EFF76A /* Products */,
@@ -71,6 +62,7 @@
 			children = (
 				16EC6CF929B2345A00EFF76A /* SwiftGenSample.entitlements */,
 				16EC6CF329B2345900EFF76A /* SwiftGenSample.swift */,
+				16EC301329B609B1007C8106 /* Media.xcassets */,
 				16EC301629B610BC007C8106 /* Feature */,
 				16AE0D8529B27559009B5672 /* Infrastructure */,
 			);
