@@ -82,7 +82,7 @@ import SwiftUI
 }
 {% if param.bundleModule %}
 
-private extension String {
+{{ accessModifier }}extension String {
     var nsLocalizedString: String {
         NSLocalizedString(self, bundle: .module, comment: "")
     }
