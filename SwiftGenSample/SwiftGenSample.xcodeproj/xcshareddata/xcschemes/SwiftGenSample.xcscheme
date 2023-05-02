@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "UIToolkit"
-               BuildableName = "UIToolkit"
-               BlueprintName = "UIToolkit"
-               ReferencedContainer = "container:Infrastructure">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AppView"
-               BuildableName = "AppView"
-               BlueprintName = "AppView"
-               ReferencedContainer = "container:SwiftGenSample/Feature">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "16EC6CEF29B2345900EFF76A"
                BuildableName = "SwiftGenSample.app"
                BlueprintName = "SwiftGenSample"

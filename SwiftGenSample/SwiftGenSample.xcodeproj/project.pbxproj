@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1643464E2A0174B200BDF4B4 /* Root in Frameworks */ = {isa = PBXBuildFile; productRef = 1643464D2A0174B200BDF4B4 /* Root */; };
 		16EC301429B609B1007C8106 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EC301329B609B1007C8106 /* Media.xcassets */; };
-		16EC301829B61234007C8106 /* AppView in Frameworks */ = {isa = PBXBuildFile; productRef = 16EC301729B61234007C8106 /* AppView */; };
 		16EC6CF429B2345900EFF76A /* SwiftGenSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC6CF329B2345900EFF76A /* SwiftGenSample.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16EC301829B61234007C8106 /* AppView in Frameworks */,
+				1643464E2A0174B200BDF4B4 /* Root in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			);
 			name = SwiftGenSample;
 			packageProductDependencies = (
-				16EC301729B61234007C8106 /* AppView */,
+				1643464D2A0174B200BDF4B4 /* Root */,
 			);
 			productName = SwiftGenSample;
 			productReference = 16EC6CF029B2345900EFF76A /* SwiftGenSample.app */;
@@ -381,9 +381,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		16EC301729B61234007C8106 /* AppView */ = {
+		1643464D2A0174B200BDF4B4 /* Root */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AppView;
+			productName = Root;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

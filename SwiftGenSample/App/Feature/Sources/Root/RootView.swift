@@ -1,7 +1,9 @@
+import Sheet
 import SwiftUI
 import UIToolkit
+import Video
 
-public struct AppView: View {
+public struct RootView: View {
 
     enum Sheet: Identifiable {
         case text
@@ -54,6 +56,6 @@ public struct AppView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        AppView()
+        RootView()
     }
 }
