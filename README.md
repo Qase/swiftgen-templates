@@ -9,7 +9,7 @@ This repo contains folder with template config and our custom templates for gene
     brew install swiftgen
     ```
 2. Setup fastlane from the [template](https://github.com/Qase/BuildingTemplates-iOS)
-3. Open `fastlane` folder and run:
+3. Run:
     ```
     fastlane setup_swiftgen
     ``` 
