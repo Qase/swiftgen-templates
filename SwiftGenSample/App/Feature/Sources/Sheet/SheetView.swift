@@ -15,10 +15,10 @@ public struct SheetView: View {
 
             VStack(spacing: 5) {
                 Group {
-                    Text(.Welcome.title)
+                    Text(.Welcome.Title.main)
                         .font(.title)
 
-                    Text(.Welcome.headline)
+                    Text(.Welcome.Title.subHeadline)
                         .font(.headline)
                 }
                 .foregroundColor(.quanti)

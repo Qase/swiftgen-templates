@@ -28,14 +28,16 @@ public extension LocalizedStringKey {
     /// World
     static let world: LocalizedStringKey = "world".localizedStringKey
     enum Welcome {
-        /// Headline
-        public static let headline: LocalizedStringKey = "welcome.headline".localizedStringKey
         /// Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Aenean vel massa quis mauris vehicula lacinia. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
         public static let longDescription: LocalizedStringKey = "welcome.long_description".localizedStringKey
         /// Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         public static let shortDescription: LocalizedStringKey = "welcome.short_description".localizedStringKey
-        /// Title
-        public static let title: LocalizedStringKey = "welcome.title".localizedStringKey
+        public enum Title {
+            /// Title
+            public static let main: LocalizedStringKey = "welcome.title.main".localizedStringKey
+            /// Headline
+            public static let subHeadline: LocalizedStringKey = "welcome.title.sub_headline".localizedStringKey
+        }
     }
 }
 
