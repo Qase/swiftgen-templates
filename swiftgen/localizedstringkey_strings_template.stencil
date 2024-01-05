@@ -39,6 +39,7 @@
 {# Macro for splitting localization key by dot(.) and create tree of enumarations with extra parameters "shouldHaveAccessModifier" #}
 {# It's for printing access control modifier in nested enumarations because in the extension is redudant #}
 {% macro recursiveBlock item shouldHaveAccessModifier %}
+    {% set currentAccessModifier %}{% if shouldHaveAccessModifier %}{{ accessModifier }}{% endif %}{% endset %}
     {% for string in item.strings %}
     {# Write localization as a comment for specified language #}
     {% if not param.noComments %}
@@ -46,7 +47,6 @@
     /// {{ line }}
     {% endfor %}
     {% endif %}
-    {% set currentAccessModifier %}{% if shouldHaveAccessModifier %}{{ accessModifier }}{% endif %}{% endset %}
     {% if string.types %}
     {% set stringName %}{{ string.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords|replace:'Lld','' }}{% endset %}
     {# Print static func for localization with parameters #}
@@ -64,7 +64,7 @@
     {% endfor %}
     {% for child in item.children %}
     {# Print nested enumaration #}
-    enum {{ child.name|swiftIdentifier:"pretty"|escapeReservedKeywords }} {
+    {{ currentAccessModifier }}enum {{ child.name|swiftIdentifier:"pretty"|escapeReservedKeywords }} {
         {% filter indent:4," ",true %}{% call recursiveBlock child true %}{% endfilter %}
     }
     {% endfor %}
